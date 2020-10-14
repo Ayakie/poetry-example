@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry-example"
+version = "0.1.0"
+description = ""
+authors = ["Akie"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scikit-learn = "0.23.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.2"
+jupyter = "^1.0.0"
+jupyter-nbextensions-configurator = "^0.4.1"
+jupyter-contrib-nbextensions = "^0.5.1"
+jupyterthemes = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
